@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/NandKumarGangai/carousel_slider/static/js/main.dcebedb4.chunk.js",
-    "main.js.map": "/NandKumarGangai/carousel_slider/static/js/main.dcebedb4.chunk.js.map",
-    "runtime-main.js": "/NandKumarGangai/carousel_slider/static/js/runtime-main.e159358c.js",
-    "runtime-main.js.map": "/NandKumarGangai/carousel_slider/static/js/runtime-main.e159358c.js.map",
-    "static/css/2.bd3e1573.chunk.css": "/NandKumarGangai/carousel_slider/static/css/2.bd3e1573.chunk.css",
-    "static/js/2.d2d5e6e4.chunk.js": "/NandKumarGangai/carousel_slider/static/js/2.d2d5e6e4.chunk.js",
-    "static/js/2.d2d5e6e4.chunk.js.map": "/NandKumarGangai/carousel_slider/static/js/2.d2d5e6e4.chunk.js.map",
-    "index.html": "/NandKumarGangai/carousel_slider/index.html",
-    "static/css/2.bd3e1573.chunk.css.map": "/NandKumarGangai/carousel_slider/static/css/2.bd3e1573.chunk.css.map",
-    "static/js/2.d2d5e6e4.chunk.js.LICENSE.txt": "/NandKumarGangai/carousel_slider/static/js/2.d2d5e6e4.chunk.js.LICENSE.txt",
-    "static/media/slick-theme.css": "/NandKumarGangai/carousel_slider/static/media/slick.c94f7671.ttf"
+    "main.js": "/carousel_slider/static/js/main.dcebedb4.chunk.js",
+    "main.js.map": "/carousel_slider/static/js/main.dcebedb4.chunk.js.map",
+    "runtime-main.js": "/carousel_slider/static/js/runtime-main.bdf16f9f.js",
+    "runtime-main.js.map": "/carousel_slider/static/js/runtime-main.bdf16f9f.js.map",
+    "static/css/2.e3da0c58.chunk.css": "/carousel_slider/static/css/2.e3da0c58.chunk.css",
+    "static/js/2.d2d5e6e4.chunk.js": "/carousel_slider/static/js/2.d2d5e6e4.chunk.js",
+    "static/js/2.d2d5e6e4.chunk.js.map": "/carousel_slider/static/js/2.d2d5e6e4.chunk.js.map",
+    "index.html": "/carousel_slider/index.html",
+    "static/css/2.e3da0c58.chunk.css.map": "/carousel_slider/static/css/2.e3da0c58.chunk.css.map",
+    "static/js/2.d2d5e6e4.chunk.js.LICENSE.txt": "/carousel_slider/static/js/2.d2d5e6e4.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/carousel_slider/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.e159358c.js",
-    "static/css/2.bd3e1573.chunk.css",
+    "static/js/runtime-main.bdf16f9f.js",
+    "static/css/2.e3da0c58.chunk.css",
     "static/js/2.d2d5e6e4.chunk.js",
     "static/js/main.dcebedb4.chunk.js"
   ]
