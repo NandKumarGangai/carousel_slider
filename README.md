@@ -1,3 +1,6 @@
+#Carousel slider
+**This project is developed in React.js.**
+
 ## Available Scripts
 
 In the project directory, you can run:
