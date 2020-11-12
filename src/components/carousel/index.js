@@ -36,7 +36,7 @@ const ProductCarousel = ({ data }) => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -45,6 +45,7 @@ const ProductCarousel = ({ data }) => {
   };
   return (
     <section className='container'>
+      <h2 className='header'>Related products</h2>
       <Slider {...settings} className='slider'>
         {carouselData.map((product) => (
           <ProductCard {...product} key={product.code} />

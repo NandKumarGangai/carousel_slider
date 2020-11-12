@@ -1,7 +1,14 @@
 import currencyToSymbolMap from 'currency-symbol-map';
 import './style.scss';
 
-const ProductCard = ({ productImageUrl, productImageAltText, name, salesUnit, price: {currency, formattedValue}, activePromotionLabels=[] }) => (
+const ProductCard = ({
+  productImageUrl,
+  productImageAltText,
+  name,
+  salesUnit,
+  price: { currency, formattedValue },
+  activePromotionLabels = [],
+}) => (
   <>
     <div className='card'>
       <div className='sect'>
@@ -13,15 +20,19 @@ const ProductCard = ({ productImageUrl, productImageAltText, name, salesUnit, pr
       </div>
       <div className='sect'>
         <h2 className='name'>{name}</h2>
-        
+        <ul className='legend'>
+          {activePromotionLabels.map(({ code, label }) => {
+            return <li key={code}>{label}</li>;
+          })}
+        </ul>
       </div>
       <div className='sect'>
-        <p className='price'>{`${currencyToSymbolMap(currency)} ${formattedValue}`}</p>
+        <p className='price'>{`${currencyToSymbolMap(
+          currency
+        )} ${formattedValue}`}</p>
       </div>
       <div className='sect'>
-        <p>
-          { `Unit: ${salesUnit}` }
-        </p>
+        <p>{`Unit: ${salesUnit}`}</p>
       </div>
       <div className='sect'>
         <p>
